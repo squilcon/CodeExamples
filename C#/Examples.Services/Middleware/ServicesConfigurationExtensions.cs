@@ -8,7 +8,7 @@ namespace Examples.Services.Middleware
 {
     public static class ServicesConfigurationExtensions
     {
-        public static IServiceCollection ConfigureServicesDependancy(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection ConfigureServicesDependency(this IServiceCollection services, IConfiguration configuration)
         {
             return services.ConfigureDatabaseDependancy(configuration)
                            .AddTransient<IExampleTableServices, ExampleTableServices>();
