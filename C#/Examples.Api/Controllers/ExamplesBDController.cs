@@ -74,7 +74,7 @@ namespace Examples.Api.Controllers
         {
             try
             {
-                //We call the function to add the information to the database. The controller / API project should never know what's the logic for fetching the database.
+                //We call the function to get information from the database. The controller / API project should never know what's the logic for fetching data from the database.
                 //If we follows good principles like SOLID, we need to decouple those logic. So, the controller should only receive the call, validate parameters
                 //and return a status code with information like an object containing the data. In this way, we can have other entrypoint like a console application
                 //use the same functionality as the API.
