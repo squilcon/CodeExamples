@@ -1,6 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 
-namespace Examples.Core.Database.Entities
+namespace Examples.Core.Entities
 {
     public class ExampleParentTableDB
     {

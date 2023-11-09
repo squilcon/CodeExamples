@@ -1,4 +1,4 @@
-﻿using Examples.Core.Database.Repositories;
+﻿using Examples.Core.Interfaces.Database.Repositories;
 using Examples.Database.Context;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;

@@ -1,6 +1,6 @@
-﻿using Examples.Core.Database.Entities;
+﻿using Examples.Core.Entities;
 
-namespace Examples.Core.Database.Repositories
+namespace Examples.Core.Interfaces.Database.Repositories
 {
     public interface IExampleParentTableRepository : IRepositoryBase<ExampleParentTableDB>
     {

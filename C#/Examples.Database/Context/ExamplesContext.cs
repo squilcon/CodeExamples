@@ -1,4 +1,4 @@
-﻿using Examples.Core.Database.Entities;
+﻿using Examples.Core.Entities;
 using Examples.Database.Configurations;
 using Microsoft.EntityFrameworkCore;
 

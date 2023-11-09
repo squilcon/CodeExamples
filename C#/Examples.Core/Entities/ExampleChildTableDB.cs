@@ -1,4 +1,4 @@
-﻿namespace Examples.Core.Database.Entities
+﻿namespace Examples.Core.Entities
 {
     public class ExampleChildTableDB
     {

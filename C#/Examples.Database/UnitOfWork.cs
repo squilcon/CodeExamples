@@ -1,5 +1,5 @@
-﻿using Examples.Core.Database;
-using Examples.Core.Database.Repositories;
+﻿using Examples.Core.Interfaces.Database;
+using Examples.Core.Interfaces.Database.Repositories;
 using Examples.Database.Context;
 using Examples.Database.Repositories;
 
