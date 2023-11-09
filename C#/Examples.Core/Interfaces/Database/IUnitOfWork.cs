@@ -1,6 +1,6 @@
-﻿using Examples.Core.Database.Repositories;
+﻿using Examples.Core.Interfaces.Database.Repositories;
 
-namespace Examples.Core.Database
+namespace Examples.Core.Interfaces.Database
 {
     public interface IUnitOfWork
     {

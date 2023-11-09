@@ -1,5 +1,5 @@
-﻿using Examples.Core.Database;
-using Examples.Core.Database.Entities;
+﻿using Examples.Core.Entities;
+using Examples.Core.Interfaces.Database;
 using Examples.Core.Services.Database;
 
 namespace Examples.Services.Database

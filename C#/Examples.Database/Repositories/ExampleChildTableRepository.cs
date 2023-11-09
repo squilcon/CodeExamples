@@ -1,5 +1,5 @@
-﻿using Examples.Core.Database.Entities;
-using Examples.Core.Database.Repositories;
+﻿using Examples.Core.Interfaces.Database.Repositories;
+using Examples.Core.Entities;
 using Examples.Database.Context;
 using Microsoft.EntityFrameworkCore;
 
