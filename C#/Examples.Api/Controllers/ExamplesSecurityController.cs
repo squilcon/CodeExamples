@@ -17,7 +17,7 @@ namespace Examples.Api.Controllers
         [HttpGet]
         [Authorize("SecureEndpoint")]
         [ProducesResponseType(typeof(string), StatusCodes.Status200OK)] //Tells swagger that a response of type "string" will be return when the StatusCode is 200.
-        [ProducesResponseType(StatusCodes.Status401Unauthorized)] //Tells swagger that a response of type of StatusCode 401 is possible.
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)] //Tells swagger that a response of StatusCode 401 is possible.
         public IActionResult ExampleSecureEndpoint()
         {
             return Ok("You have acces to the endpoint!");

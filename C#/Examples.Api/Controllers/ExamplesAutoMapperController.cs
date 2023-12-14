@@ -19,7 +19,7 @@ namespace Examples.Api.Controllers
         /// <summary>
         /// AutoMapper example with converter
         /// </summary>
-        [HttpGet("convertUsing")]
+        [HttpGet("ConvertUsing")]
         [ProducesResponseType(typeof(IEnumerable<ExampleValueGrouped>), StatusCodes.Status200OK)]
         public IActionResult ConvertUsingExample()
         {
@@ -38,7 +38,7 @@ namespace Examples.Api.Controllers
         /// <summary>
         /// AutoMapper example with resolver
         /// </summary>
-        [HttpGet("resolve")]
+        [HttpGet("Resolve")]
         [ProducesResponseType(typeof(IEnumerable<ExampleValueTwoMapped>), StatusCodes.Status200OK)]
         public IActionResult ResolveExample()
         {
