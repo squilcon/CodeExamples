@@ -28,7 +28,7 @@ namespace Examples.Services.Middleware
                            .AddTransient<IHeaderServices, HeaderServices>()
                            .AddTransient<IPaginationServices, PaginationServices>()
                            // I don't know if it's correct to use this interface within the DI since every 
-                           // exemple I see always use the concrete implementation "FileExtensionContentTypeProvider".
+                           // example I see always use the concrete implementation "FileExtensionContentTypeProvider".
                            // Since this is a project library, the .csproj needs to have in a "<ItemGroup>" tag, this tag
                            //"<FrameworkReference Include="Microsoft.AspNetCore.App>" to be able to use that class.
                            .AddTransient<IContentTypeProvider, FileExtensionContentTypeProvider>()
