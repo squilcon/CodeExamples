@@ -17,7 +17,8 @@ namespace Examples.Api.Middleware
         /// <returns><see cref="IServiceCollection"/></returns>
         public static IServiceCollection ConfigureApiDependencies(this IServiceCollection services, IConfiguration configuration)
         {            
-            return services.ConfigureServicesDependency(configuration); //Dependency configuration for the "Services" project.
+            return services.ConfigureServicesDependency(configuration) //Dependency configuration for the "Services" project.
+                           .AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies()); 
         }
     }
 }
