@@ -1,5 +1,6 @@
 ﻿using Examples.Gateways.Models;
 using Polly;
+using System.Text.Json;
 
 namespace Examples.Gateways.RestApis
 {
@@ -67,6 +68,9 @@ namespace Examples.Gateways.RestApis
                     _token = new Token();
                     throw;
                 }
+
+                var responseMessage = await response.Content.ReadAsStringAsync();
+                result = JsonSerializer.Deserialize<T>(responseMessage);
             });
 
             return result;
