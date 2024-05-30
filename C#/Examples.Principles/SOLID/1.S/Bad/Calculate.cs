@@ -13,7 +13,7 @@ namespace Examples.Principles.SOLID._1.S.Bad
                     CalculateSquareArea(shape.Length);
                     break;
                 case ShapeType.Circle:
-                    CalculateCalculateCircle(shape.Length);
+                    CalculateCircle(shape.Length);
                     break;
                 default:
                     throw new NotImplementedException();
@@ -26,7 +26,7 @@ namespace Examples.Principles.SOLID._1.S.Bad
             LogArea(area);
         }
 
-        private void CalculateCalculateCircle(int radius)
+        private void CalculateCircle(int radius)
         {
             var area = Math.PI * radius * radius;
             LogArea(area);

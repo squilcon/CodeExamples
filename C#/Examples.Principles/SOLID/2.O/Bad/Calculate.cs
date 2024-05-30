@@ -10,7 +10,7 @@ namespace Examples.Principles.SOLID._2.O.Bad
             return shape.Type switch
             {
                 ShapeType.Square => CalculateSquareArea(shape.Length),
-                ShapeType.Circle => CalculateCalculateCircle(shape.Length),
+                ShapeType.Circle => CalculateCircle(shape.Length),
                 ShapeType.Rectangle => CalculateRectangleArea(shape.Length, shape.Width),
                 _ => throw new NotImplementedException()
             };
@@ -21,7 +21,7 @@ namespace Examples.Principles.SOLID._2.O.Bad
             return length * length;
         }
 
-        private double CalculateCalculateCircle(int radius)
+        private double CalculateCircle(int radius)
         {
             return Math.PI * radius * radius;
         }
