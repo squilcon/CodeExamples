@@ -13,17 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examples.Database", "Exampl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examples.Batch", "Examples.Batch\Examples.Batch.csproj", "{87495994-D670-4063-AC1E-098A4D69AA6A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examples.Principles", "Examples.Principles\Examples.Principles.csproj", "{8027AA09-FF3D-4839-AA76-3C82F705033D}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IndependentProjects", "IndependentProjects", "{F2C57361-7710-4CF5-9D8E-FD0B928A9D4B}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examples.Gateways", "Examples.Gateways\Examples.Gateways.csproj", "{88B42A28-18E9-49EB-84E7-62AB341F1074}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{75B01F50-2B67-4F33-8B06-517717751A57}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examples.Gateways.Tests", "Examples.Gateways.Tests\Examples.Gateways.Tests.csproj", "{5933C303-9E64-4E7B-A3F5-D9A73FA5D1A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.Api.Tests", "Examples.Api.Tests\Examples.Api.Tests.csproj", "{150076A0-F621-4259-B00F-8C65698A11F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examples.Api.Tests", "Examples.Api.Tests\Examples.Api.Tests.csproj", "{150076A0-F621-4259-B00F-8C65698A11F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,10 +47,6 @@ Global
 		{87495994-D670-4063-AC1E-098A4D69AA6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87495994-D670-4063-AC1E-098A4D69AA6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87495994-D670-4063-AC1E-098A4D69AA6A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8027AA09-FF3D-4839-AA76-3C82F705033D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8027AA09-FF3D-4839-AA76-3C82F705033D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8027AA09-FF3D-4839-AA76-3C82F705033D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8027AA09-FF3D-4839-AA76-3C82F705033D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{88B42A28-18E9-49EB-84E7-62AB341F1074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{88B42A28-18E9-49EB-84E7-62AB341F1074}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88B42A28-18E9-49EB-84E7-62AB341F1074}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -72,7 +64,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{8027AA09-FF3D-4839-AA76-3C82F705033D} = {F2C57361-7710-4CF5-9D8E-FD0B928A9D4B}
 		{5933C303-9E64-4E7B-A3F5-D9A73FA5D1A2} = {75B01F50-2B67-4F33-8B06-517717751A57}
 		{150076A0-F621-4259-B00F-8C65698A11F4} = {75B01F50-2B67-4F33-8B06-517717751A57}
 	EndGlobalSection
