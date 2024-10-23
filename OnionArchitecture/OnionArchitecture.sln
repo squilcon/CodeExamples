@@ -21,6 +21,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationCore", "Applicat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Api", "OnionArchitecture.Api\OnionArchitecture.Api.csproj", "{8CF0F473-84BC-48F0-957D-D94976C3DDB4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Diagram", "_Diagram", "{E08780FA-0C6E-4749-A5CD-18F2CEFCB057}"
+	ProjectSection(SolutionItems) = preProject
+		Onion Architecture Infographic (Basic).png = Onion Architecture Infographic (Basic).png
+		Onion Architecture Infographic (Detailed).png = Onion Architecture Infographic (Detailed).png
+		Onion Architecture Infographic (More detailed).png = Onion Architecture Infographic (More detailed).png
+		Onion Architecture Infographic.png = Onion Architecture Infographic.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
